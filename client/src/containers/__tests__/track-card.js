@@ -32,5 +32,3 @@ describe('Track Card', () => {
     await waitForElement(() => getByText(/cat-stronomy/i));
   });
 });
-
-export default TrackCard;
